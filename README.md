@@ -25,6 +25,8 @@ Warnings
 
 This is a very simplistic thing. It worked for me. I hope you can use it too.
 
+It deletes pics from the folder after successful upload. If you want to keep a copy, put them somewhere else as well!
+
 The Flickr API will error randomly, i.e. a photo may fail to upload once and then be fine the next time. So basically you have to run the script many times before all photos get uploaded. The script will try not to crash with the most obvious errors.
 
 
