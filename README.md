@@ -11,11 +11,11 @@ Flickr give you 1 TB of storage and a lot of control over the privacy of your fi
 Instructions
 ------------
 
-Get a Flickr user and an API
+Get a Flickr user and an API key. http://www.flickr.com/services/api/
 
 Install the Flickraw gem (https://github.com/hanklords/flickraw) and follow his instructions to authenticate your "app" so that you can obtain all the necessary tokens and secrets. Put these in the script.
 
-Your photos need to be in folders. When it runs, the script will look for any folders in the directory in which it is running and loop through each one looking for photos to upload. After it uploads all the photos in the folder it will create a set with the folder name and assign all the uploaded photos to that set.
+Your photos need to be in folders. When it runs, the script will look for any folders in the directory in which it is running and loop through each one looking for photos to upload. After it uploads all the photos in the folder it will create a Flickr set with the folder name and assign all the uploaded photos to that set.
 
 It will try not to create any duplicate set names (but beware because I think the Flickr API only returns up to 500 sets in a "get sets" call, so things may go pear shaped if you have more that that.
 
