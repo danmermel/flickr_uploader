@@ -71,7 +71,7 @@ folders.each {|x|                               #now loop through each folder an
          end
       }
       if not set_exists then
-         photoset = flickr.photosets.create :title => set_name, :primary_photo_id => pic_ids[0] 
+         photoset = flickr.photosets.create :title => x, :primary_photo_id => pic_ids[0] 
          photoset_id = photoset.id
          puts "created new photoset called #{x} with id #{photoset_id}"
       end
